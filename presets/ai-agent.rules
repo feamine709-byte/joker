@@ -1,0 +1,23 @@
+# V0.5-Joker AI Coding Agent Preset (Layer 1 baseline + Layer 2 adaptive)
+L1 SANDBOX * 1
+L1 ENV_CLEAR * 1
+L1 ENV_ALLOW PATH 1
+L1 ENV_ALLOW HOME 1
+L1 DENY C:\Windows\* 1
+L1 DENY /etc/* 1
+L1 DENY "rm -rf" 1
+L1 DENY "del /f" 1
+L1 REDACT sk-* 1
+L1 REDACT ghp_* 1
+L1 REDACT AKIA* 1
+L1 STOP 401_UNAUTHORIZED 1
+L1 BREAK 3
+L1 TIMEOUT 30
+L1 PRUNE 6
+L1 AUDIT * 1
+L2 ALLOW cargo 1
+L2 ALLOW git 1
+L2 ALLOW python 1
+L2 PREFER cargo 20
+L2 ROUTE cargo 0
+L2 CHECKPOINT * 1

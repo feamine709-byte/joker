@@ -1,0 +1,17 @@
+# V0.5-Joker External API / Secret Guard Preset
+L1 ENV_CLEAR * 1
+L1 REDACT sk-* 1
+L1 REDACT sk_live_* 1
+L1 REDACT ghp_* 1
+L1 REDACT AKIA* 1
+L1 REDACT AIza* 1
+L1 STOP 401 1
+L1 STOP 403 1
+L1 STOP "token expired" 1
+L1 STOP "authentication failed" 1
+L1 RATE_LIMIT 60
+L1 QUOTA 32768
+L1 BREAK 3
+L1 VERIFY * 1
+L1 ALERT * 1
+L1 AUDIT * 1

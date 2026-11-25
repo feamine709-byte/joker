@@ -1,0 +1,23 @@
+# V0.5-Joker Strict Zero-Trust Sandbox Preset
+L1 SANDBOX * 1
+L1 LOCK /etc/* 1
+L1 LOCK C:\Windows\* 1
+L1 LOCK C:\Users\* 1
+L1 DENY powershell 1
+L1 DENY cmd 1
+L1 DENY bash 1
+L1 DENY sh 1
+L1 DENY curl 1
+L1 DENY wget 1
+L1 REDACT sk-* 1
+L1 REDACT ghp_* 1
+L1 BREAK 2
+L1 TIMEOUT 15
+L1 REWARD safe_probe 10
+L1 PENALIZE unsafe_action -20
+L1 ROLLBACK * 1
+L1 RESET * 1
+L1 ATTACH sandbox 1
+L1 WATCH sandbox 1
+L1 CHECKPOINT * 1
+L1 AUDIT * 1

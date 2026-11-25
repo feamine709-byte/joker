@@ -1,0 +1,30 @@
+LIVING AUTOMATON KERNEL — PROPRIETARY COMMERCIAL LICENSE
+Copyright (c) 2026 Living Automaton Kernel Authors. All Rights Reserved.
+
+1. GRANT OF LICENSE
+Subject to your payment of the applicable license fee and compliance with this Agreement,
+Licensor grants you a non-exclusive, non-transferable, revocable license to install and
+execute the Living Automaton Kernel software ("Software") solely on the number of local
+host machines ("Seats") and up to the maximum compiled team/cell tier capacity licensed:
+  - tier_pod        (1 team   /     7 living cells) — Single-Seat Local License
+  - tier_solo       (10 teams /    70 living cells) — Single-Seat Local License
+  - tier_indie      (71 teams /   497 living cells) — Single-Seat / Indie Workstation License
+  - tier_enterprise (714 teams / 4,998 living cells) — Commercial Workstation / Site License (as specified in your order)
+
+2. RESTRICTIONS
+You may NOT:
+  (a) Redistribute, resell, sublicense, rent, lease, or publicly host the Software or its
+      compiled binaries without prior written authorization from Licensor.
+  (b) Circumvent, patch, recompile, or bypass the tier capacity limits (`DEFAULT_TEAM_COUNT`,
+      `MAX_NODES`) or API authentication controls enforced by your licensed binary tier.
+  (c) Remove or alter any copyright, trademark, or proprietary notices in the Software.
+
+3. LOCAL-FIRST DATA & OWNERSHIP
+All snapshots (`kernel.snap`), SHA-256 audit logs (`audit.log`), sandbox artifacts, and
+learned policy weights generated locally on your machine remain your sole property.
+
+4. WARRANTY DISCLAIMER & LIMITATION OF LIABILITY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF OR INABILITY TO USE THE SOFTWARE.

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "joker-kernel": {
+      "command": "living_automaton_kernel.exe",
+      "args": [
+        "--data-dir",
+        ".lak-data",
+        "--rules",
+        "presets/ai-agent.rules",
+        "--mcp-stdio"
+      ]
+    }
+  }
+}
