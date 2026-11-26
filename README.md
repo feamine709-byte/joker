@@ -10,7 +10,7 @@
 
 ## Get V0.5-Joker ($29 One-Time License)
 
-**[Get V0.5-Joker ($29 One-Time License) on Polar.sh](https://buy.polar.sh/polar_cl_QNGodSf74F49VETHe1vvfYGvsiEDsqTuNax5V0i8ck1)**
+**[Get V0.5-Joker ($29 One-Time License) on Polar.sh](https://buy.polar.sh/polar_cl_QNGodSf74F49VETHe1vvIYGvsiEDsqTuNax5V0i8ck1)**
 
 What is included in your license package:
 - Pre-compiled standalone binaries for **Windows x64 (`joker.exe`)**, **Linux x64 (`joker`)**, **macOS ARM64 (`joker`)**, and **macOS x64 (`joker`)**
